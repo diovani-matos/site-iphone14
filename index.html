@@ -4,17 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/style-main.css">
+    <link rel="shortcut icon" href="estilo/imagens/favicon.ico" type="image/x-icon">
     <title>Site Responsivo</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+        <nav class="navigation">
+            <a href="#"><img src="estilo/imagens/logo-apple.png" alt="logo-apple"  class="logo"></a>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-item">Home</a></li>
+                <li><a href="#" class="nav-item">Comprar</a></li>
+                <li><a href="#" class="nav-item">Suporte</a></li>
             </ul>
+            <div class="burguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-txt">
+                <img src="estilo/imagens/iphone14.png" alt="iphone">
+                <h3>Seu novo Iphone</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla voluptatem quis consequatur voluptatibus ea, magnam, nesciunt voluptate, quam recusandae odio enim dolores esse odit voluptas pariatur vitae. Impedit, ea.</p>
+                <h6>A partir de R$ 7.999,00</h6>
+                <a href="#" class="btn">Comprar</a>
+                <div class="txt-cor">
+                    <h4>Escolha sua cor favorita:</h4>
+                </div>
+                <div class="cores">
+                    <span id="azul" onclick="corPhone('estilo/imagens/iphone-azul.png'); corCircle('#A3B6C7')"></span>
+                    <span id="branco" onclick="corPhone('estilo/imagens/iphone-branco.png'); corCircle('#fff')""></span>
+                    <span id="preto" onclick="corPhone('estilo/imagens/iphone-preto.png'); corCircle('#0F0F0F')""></span>
+                    <span id="red" onclick="corPhone('estilo/imagens/iphone-red.png'); corCircle('#F30525')""></span>
+                    <span id="star" onclick="corPhone('estilo/imagens/iphone-star.png'); corCircle('#C7BFD6')""></span>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="estilo/imagens/iphone-azul.png" alt="iphone-azul" id="phone">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
