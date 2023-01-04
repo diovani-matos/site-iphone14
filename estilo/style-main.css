@@ -19,7 +19,13 @@ body {
     background-color: rgb(215, 215, 215);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 780px) {
+
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .burguer {
         display: block;
     }
@@ -57,6 +63,55 @@ body {
 
     .circle {
         display: none;
+    }
+
+    main section {
+        width: 300px;
+    }
+
+    .main-txt h3{
+        font-size: 1.8rem;
+        margin-top: 20px;
+        max-width: 320px;
+    }
+
+    .main-txt h6 {
+        font-size: .9rem;
+    }
+
+    .main-txt .btn {
+        font-size: 1rem;
+    }
+
+    .main-txt p {
+        width: 300px;
+        text-align: justify;
+    }
+
+    .main-txt img {
+        max-width: 250px;
+    }
+
+    .main-img {
+        width: 100vw;
+        height: 200px;
+    }
+    .main-img img {
+        
+        padding-top: 40px;
+    }
+
+    .txt-cor {
+        margin: 0px 5px;
+    }
+
+    .txt-cor h4 {
+        font-size: 1.2rem;
+    }
+
+    .cores span {
+        width: 40px;
+        height: 40px;
     }
 
 

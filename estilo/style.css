@@ -155,7 +155,7 @@ background-color: #e7dfec;
 }
 
 .main-img img {
-    width: 900px;
+
 }
 
 .circle {
@@ -165,10 +165,10 @@ background-color: #e7dfec;
     width: 100%;
     height: 100%;
     background: #A3B6C7;
-    clip-path: circle(700px at right 900px);
+    clip-path: circle(600px at right 900px);
 }
 
-@media (max-width:480px) {
+/**@media (max-width:480px) {
     .navigation {
         width: 100vw;
     }
