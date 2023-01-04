@@ -89,13 +89,9 @@ body {
     }
 
     .main-txt img {
+        position: relative;
+        left: -10%;
         max-width: 50vw;
-    }
-
-    .main-img {
-        display: block;
-        max-height: 50vh;
-
     }
 
     .txt-cor {
