@@ -89,8 +89,6 @@ body {
     }
 
     .main-txt img {
-        position: relative;
-        left: -10%;
         max-width: 50vw;
     }
 
@@ -105,6 +103,13 @@ body {
     .cores span {
         width: 25px;
         height: 25px;
+    }
+
+    .main-img img {
+        position: relative;
+        left: -10%;
+        max-width: 60vw;
+        margin-bottom: -5%;
     }
 
 
