@@ -19,7 +19,7 @@ body {
     background-color: rgb(215, 215, 215);
 }
 
-@media (max-width: 780px) {
+@media (max-width: 800px) {
 
     html, body {
         width: 100%;
@@ -66,7 +66,7 @@ body {
     }
 
     main section {
-        width: 300px;
+        width: 700px;
     }
 
     .main-txt h3{
@@ -84,21 +84,18 @@ body {
     }
 
     .main-txt p {
-        width: 300px;
+        max-width: 60vw;
         text-align: justify;
     }
 
     .main-txt img {
-        max-width: 250px;
+        max-width: 50vw;
     }
 
     .main-img {
-        width: 100vw;
-        height: 200px;
-    }
-    .main-img img {
-        
-        padding-top: 40px;
+        display: block;
+        max-height: 50vh;
+
     }
 
     .txt-cor {
@@ -106,12 +103,12 @@ body {
     }
 
     .txt-cor h4 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .cores span {
-        width: 40px;
-        height: 40px;
+        width: 25px;
+        height: 25px;
     }
 
 
